@@ -167,6 +167,10 @@ function getUnfollowFunc(i){
   return "tryUnfollow(" + i + ")";
 }
 
+function updateList(){
+  window.location.reload()
+}
+
 /*function getToken(){
   if(query == null){
     console.log("No query on the url");
