@@ -90,7 +90,7 @@ function goRequireToken(){
     newURI+="&redirect_uri=" + appAuthedPage;
   }
   newURI+="&response_type=token";
-  newURI+="&scope=likes+basic+public_content+follower_list+comments+relationships";
+  newURI+="scope=basic+public_content+follower_list+relationships";
 
   window.location = newURI;
 }
