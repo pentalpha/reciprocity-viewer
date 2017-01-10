@@ -2,7 +2,7 @@ var uri;
 var query;
 var parsedURI;
 var appID = "d0fe42d7fa044cd683c662941f4908c2";
-var appAuthedPage = "https://pentalpha.github.io/instagram-api-tests/";
+var appAuthedPage = "https://pentalpha.github.io/reciprocity-viewer/";
 var appAuthedPageLocal = "https://localhost:3000";
 var instaGetSelfURL = "https://api.instagram.com/v1/users/self/?access_token=";
 var instaGetFollowingURL = "https://api.instagram.com/v1/users/self/follows?access_token=";
