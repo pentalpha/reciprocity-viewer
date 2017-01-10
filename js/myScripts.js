@@ -1,14 +1,13 @@
 var uri;
 var query;
 var parsedURI;
-var appID = "dbe2b59f498b4f44a7ef77c53ea1934d";
+var appID = "d0fe42d7fa044cd683c662941f4908c2";
 var appAuthedPage = "https://pentalpha.github.io/instagram-api-tests/";
 var appAuthedPageLocal = "https://localhost:3000";
 var instaGetSelfURL = "https://api.instagram.com/v1/users/self/?access_token=";
 var instaGetFollowingURL = "https://api.instagram.com/v1/users/self/follows?access_token=";
 var instaGetFollowersURL = "https://api.instagram.com/v1/users/self/followed-by?access_token=";
 var token;
-var publicToken = "4327612680.e029fea.3dbf7c050f794ba09fb2b28e7477eccd";
 var userData;
 var followers;
 var following;
